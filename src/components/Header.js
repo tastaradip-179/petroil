@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 const Header = () => {
   return (
     <header className='bg-smokyBlack py-4 border-b-2 border-solid border-yellowOrange'>
-      <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
+      <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
         <div className='w-full flex sm:flex-wrap md:flex-nowrap text-white'>
           <div className='w-full lg:w-2/4'>
             <div className='justify-start flex sm:flex-wrap lg:flex-nowrap sm:gap-2 lg:gap-20'>
