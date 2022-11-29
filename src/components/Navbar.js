@@ -44,8 +44,8 @@ const Navbar = () => {
                 </button>
             </div>
             {open && 
-            <div className='w-full lg:w-4/5 flex items-center justify-end mt-6 lg:mt-0'>
-                <ul className='flex flex-col md:flex-row text-white list-none font-poppins font-semibold text-base md:gap-x-8 lg:gap-x-12'>
+            <div className='w-full lg:w-4/5 flex items-center justify-end mt-6 lg:mt-0 relative'>
+                <ul className='absolute md:relative bg-main px-4 pb-4 md:p-0 top-0 flex flex-col md:flex-row text-white list-none font-poppins font-semibold text-base md:gap-x-8 lg:gap-x-12'>
                     <li className='md:border-0 border-solid border-lighten border-b-2 p-2 md:p-0'><a href="#" className='capitalize no-underline'>Home</a></li>
                     <li className='md:border-0 border-solid border-lighten border-b-2 p-2 md:p-0'><a href="#" className='capitalize no-underline'>About</a></li>
                     <li className='md:border-0 border-solid border-lighten border-b-2 p-2 md:p-0'><a href="#" className='capitalize no-underline'>Services</a></li>
