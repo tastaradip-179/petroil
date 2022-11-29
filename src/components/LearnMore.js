@@ -6,7 +6,7 @@ const LearnMore = () => {
         <div className='max-w-container mx-auto'>
             <div className='flex flex-wrap md:flex-nowrap'>
                 <div className='w-full md:w-2/6 bg-main flex items-center'>
-                    <h4 className='text-white text-2xl md:text-3xl lg:text-4xl font-poppins font-bold leading-[28px] md:leading-[36px] lg:leading-[48px] max-w-full lg:max-w-[262px] sm:p-12 sm:ml-0 md:p-0 md:ml-[28px] lg:ml-[74px]'>Learn more about our company</h4>
+                    <h4 className='text-white text-2xl md:text-3xl lg:text-4xl font-poppins font-bold leading-[28px] md:leading-[36px] lg:leading-[48px] max-w-full lg:max-w-[262px] p-12 ml-0 md:p-0 md:ml-[28px] lg:ml-[74px]'>Learn more about our company</h4>
                 </div>
                 <div className='w-full md:w-4/6 bg-learn bg-no-repeat bg-fixed bg-center bg-cover'>
                     <div className='py-40 text-center'>
