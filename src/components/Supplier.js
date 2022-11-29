@@ -3,7 +3,7 @@ import React from 'react'
 const Supplier = () => {
   return (
     <section className='mt-[78px]'>
-        <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
+        <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
             <div className='flex flex-wrap lg:flex-nowrap lg:justify-between'>
                 <div className='max-w-full lg:max-w-[290px]'>
                     <h3 className='font-poppins font-bold text-black text-3xl md:text-4xl lg:text-5xl leading-[40px] md:leading-[52px] lg:leading-[64px]'>The biggest supplier on the country</h3>

@@ -3,7 +3,7 @@ import React from 'react'
 const Client = () => {
   return (
     <section className='my-28'>
-        <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
+        <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
             <div className='flex flex-wrap md:flex-nowrap'>
                 <div className='w-2/4 md:w-1/4'>
                     <picture>

@@ -3,7 +3,7 @@ import React from 'react'
 const Member = () => {
   return (
     <section className='bg-main border-b-2 border-solid border-yellowOrange'>
-        <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
+        <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
             <div className='flex flex-wrap lg:flex-nowrap justify-between py-11'>
                 <div>
                     <h4 className='text-white text-4xl font-poppins font-bold'>Want to join as member branch in your area?</h4>

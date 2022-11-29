@@ -3,7 +3,7 @@ import { AiOutlineRight } from 'react-icons/ai';
 const Blog = () => {
   return (
     <section className='bg-lightAsh py-28'>
-        <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
+        <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
             <div className='flex flex-wrap lg:flex-nowrap gap-x-14 gap-y-4'>
                 <div className='bg-blog1 bg-no-repeat bg-fixed bg-center bg-cover'>
                     <div className='bg-darken px-12 pt-[75px] pb-[55px]'>

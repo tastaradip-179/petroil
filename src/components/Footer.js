@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
         <div className='top-footer bg-fadedBlack text-white'>
-            <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
+            <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
                 <div className='flex flex-wrap lg:flex-nowrap py-16 lg:py-32'>
                     <div className='w-full lg:w-2/5 flex justify-start'>
                         <ul className=''>
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='bottom-footer bg-smokyBlack'>
-            <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
+            <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
                 <p className='font-poppins text-base font-medium font-paragraph py-10 text-black'>© Copyright 2022 by AltDesain Studio – All right reserved.</p>
             </div>  
         </div>
