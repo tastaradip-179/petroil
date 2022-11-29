@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <header className='bg-smokyBlack py-4 border-b-2 border-solid border-yellowOrange'>
       <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto'>
-        <div className='w-full flex sm:flex-wrap md:flex-nowrap text-white'>
+        <div className='w-full flex flex-wrap md:flex-nowrap text-white'>
           <div className='w-full lg:w-2/4'>
-            <div className='justify-start flex sm:flex-wrap lg:flex-nowrap sm:gap-2 lg:gap-20'>
+            <div className='justify-start flex flex-wrap lg:flex-nowrap sm:gap-2 lg:gap-20'>
               <div className='flex w-full md:w-2/4 border-0 lg:border-r-2 lg:border-solid lg:border-[#5C6A92]'>
                 <BsEnvelopeFill className='text-base font-normal mr-1'/>
                 <span className='font-poppins font-normal text-xs'>mail@yourcompany.com</span>
