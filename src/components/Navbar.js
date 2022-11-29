@@ -27,8 +27,8 @@ const Navbar = () => {
 
   return (
     <nav className='bg-main py-7'>
-        <div className='sm:max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto h-full flex flex-wrap md:flex-nowrap md:flex-col lg:flex-row'>
-            <div className='sm:w-2/4 md:w-1/5 justify-start'>
+        <div className='max-w-smContainer md:max-w-mdContainer lg:max-w-container mx-auto h-full flex flex-wrap md:flex-nowrap md:flex-col lg:flex-row'>
+            <div className='w-2/4 md:w-1/5 justify-start'>
                 <picture>
                     <img className='w-full' src="images/logo.png" loading='lazy' alt="logo"/>
                 </picture>
